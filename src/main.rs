@@ -5,6 +5,7 @@ use std::{
 use minigrep::Config;
 
 fn main() {
+    println!("Minigrep!!!!!");
     let config = Config::new(env::args()).unwrap_or_else(|err| {
         eprintln!("Problem parsing arguments: {}", err);
         process::exit(1);
